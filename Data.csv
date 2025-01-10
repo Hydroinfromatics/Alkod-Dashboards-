@@ -1,0 +1,124 @@
+Water_Availability,Groundnuts_Yield_2021,Groundnuts_Yield_2024,Cotton_Yield_2021,Cotton_Yield_2024,Yield_Changes_2021 to 2024,Borewell_Recharge,Agri_Income_2021 to 2024,Cattle_Population_2021,Cattle_Population_2024,Views_on_Lake_Rejuvenation,Willing_to_Be_Committee_Member
+Improved,10,10,1,1,No change,No change,No change,6,6,Neutral,TRUE
+shortage,5,5,1,2,No change,No change,No change,6,15,Positive,TRUE
+Improved,1,3,1,3,Improved,Increased ,Increased,6,15,Positive,TRUE
+shortage,5,5,1,2,No change,No change,No change,6,15,Positive,TRUE
+Improved,7,15,3,12,Improved,Increased ,Increased,6,15,Positive,FALSE
+Improved,8,12,3,5,Improved,Increased ,Increased,5,5,Positive,TRUE
+Improved,5,6,1,2,Improved,Increased ,Increased,6,15,Positive,FALSE
+Improved,6,5,4,6,Improved,Increased ,Increased,6,15,Positive,TRUE
+Improved,5,5,1,1,No change,No change,No change,6,15,Positive,TRUE
+Improved,5,5,3,5,Improved,Increased ,Increased,6,15,Positive,FALSE
+Improved,7,8,1,1,Improved,Increased ,Increased,6,15,Positive,TRUE
+shortage,5,5,2,2,No change,Increased ,No change,6,15,Positive,TRUE
+Improved,5,5,3,3,No change,No change,No change,6,15,Positive,TRUE
+Improved,1,3,2,2,Improved,Increased ,Adequate,6,15,Positive,TRUE
+Improved,6,9,1,2,Improved,Increased ,Increased,6,15,Positive,TRUE
+Improved,9,19,4,10,Improved,Increased ,Increased,6,15,Positive,FALSE
+Improved,2,4,2,4,Improved,Increased ,Increased,6,12,Neutral,TRUE
+Improved,3,4,2,3,Improved,Increased ,Increased,6,12,Neutral,TRUE
+shortage,4,4,2,2,No change,No change,No change,6,12,Positive,TRUE
+shortage,6,6,1,1,No change,No change,No change,6,12,Positive,TRUE
+Improved,1,3,4,5,Improved,Increased ,Increased,6,12,Positive,FALSE
+Improved,5,5,3,4,Improved,Increased ,Increased,6,12,Positive,TRUE
+Improved,1,1,1,2,Improved,Increased ,Increased,6,12,Positive,TRUE
+Improved,4,5,2,3,Improved,Increased ,Increased,6,15,Positive,TRUE
+Improved,3,4,3,4,Improved,Increased ,Increased,6,15,Neutral,TRUE
+Improved,6,24,5,12,Improved,Increased ,Increased,6,15,Positive,TRUE
+shortage,5,5,2,2,No change,No change,No change,6,15,Neutral,TRUE
+Improved,2,3,1,3,Improved,Increased ,Adequate,6,13,Positive,TRUE
+Improved,4,5,3,4,Improved,Increased ,Adequate,6,13,Positive,TRUE
+shortage,5,5,2,2,No change,No change,No change,6,13,Positive,TRUE
+Improved,5,7,5,7,Improved,Increased ,Increased,6,13,Positive,TRUE
+Improved,4,4,3,4,Improved,Increased ,Increased,6,13,Positive,TRUE
+Improved,6,25,6,14,Improved,Increased ,Increased,6,13,Positive,TRUE
+Improved,1,1,1,3,Improved,Increased ,Increased,6,13,Positive,TRUE
+Improved,1,2,1,2,Improved,Increased ,Increased,6,11,Neutral,TRUE
+Improved,6,25,5,15,Improved,Increased ,Increased,6,11,Positive,FALSE
+shortage,6,6,1,1,No change,No change,No change,6,11,Positive,TRUE
+shortage,5,5,3,3,No change,No change,No change,6,11,Neutral,TRUE
+Improved,4,5,5,6,Improved,Increased ,Increased,6,11,Positive,TRUE
+Improved,1,3,5,6,Improved,Increased ,Increased,6,11,Positive,TRUE
+Improved,5,5,3,3,No change,No change,No change,7,7,Positive,TRUE
+Improved,6,14,3,13,Improved,Increased ,Increased,7,19,Positive,TRUE
+Improved,2,4,3,4,Improved,Increased ,Increased,7,19,Positive,TRUE
+Improved,1,1,1,1,Improved,Increased ,Increased,7,19,Positive,TRUE
+Improved,4,6,3,5,Improved,Increased ,Increased,7,19,Positive,TRUE
+Improved,1,3,2,3,Improved,Increased ,Increased,7,19,Neutral,FALSE
+shortage,5,5,1,1,No change,No change,No change,7,7,Positive,TRUE
+Improved,6,14,5,12,Improved,Increased ,Increased,7,21,Positive,TRUE
+Improved,4,5,8,9,Improved,Increased ,Increased,7,21,Positive,TRUE
+Improved,6,14,3,16,Improved,Increased ,Increased,7,21,Positive,TRUE
+Improved,6,14,6,14,Improved,Increased ,Increased,7,21,Positive,TRUE
+Improved,1,2,2,3,Improved,Increased ,Increased,5,10,Positive,TRUE
+Improved,6,14,3,11,Improved,Increased ,Increased,7,21,Positive,FALSE
+Improved,1,2,2,3,Improved,Increased ,Increased,7,21,Positive,TRUE
+Improved,6,20,4,11,Improved,Increased ,Increased,7,7,Positive,TRUE
+Improved,4,5,7,8,Improved,Increased ,Increased,7,20,Positive,FALSE
+Improved,1,2,3,2,Improved,Increased ,Increased,7,20,Positive,TRUE
+Improved,4,5,4,5,Improved,Increased ,Increased,7,20,Positive,FALSE
+Improved,2,4,6,7,Improved,Increased ,Increased,7,20,Positive,FALSE
+Improved,1,2,1,1,Improved,Increased ,Increased,7,20,Neutral,TRUE
+Improved,4,6,2,3,Improved,Increased ,Increased,7,20,Neutral,TRUE
+shortage,6,6,2,2,No change,No change,No change,7,7,Positive,TRUE
+Improved,1,2,1,2,Improved,Increased ,Increased,7,20,Neutral,TRUE
+Improved,6,14,6,14,Improved,Increased ,Increased,7,20,Positive,FALSE
+shortage,6,6,2,2,No change,No change,No change,7,7,Positive,TRUE
+Improved,1,2,1,1,Improved,Increased ,Increased,6,17,Positive,TRUE
+Improved,4,5,3,4,Improved,Increased ,Increased,6,17,Positive,TRUE
+shortage,6,6,2,2,No change,No change,No change,0,0,Positive,TRUE
+shortage,4,4,3,3,No change,No change,No change,6,17,Positive,TRUE
+shortage,4,4,1,1,No change,No change,No change,6,17,Positive,TRUE
+shortage,4,4,1,1,No change,Increased ,No change,6,17,Positive,TRUE
+Improved,4,5,4,6,Improved,Increased ,Increased,0,0,Positive,TRUE
+shortage,4,4,2,2,No change,No change,No change,0,0,Positive,TRUE
+Improved,1,2,4,5,Improved,Increased ,Increased,6,17,Positive,FALSE
+shortage,4,4,3,3,No change,No change,No change,6,17,Neutral,TRUE
+Improved,3,4,2,3,Improved,Increased ,Increased,0,0,Positive,FALSE
+Improved,1,2,1,2,Improved,Increased ,Increased,6,17,Positive,TRUE
+shortage,4,4,2,2,No change,No change,No change,6,17,Neutral,TRUE
+Improved,1,2,2,3,Improved,Increased ,Increased,6,17,Positive,FALSE
+Improved,3,4,4,6,Improved,Increased ,Increased,6,17,Positive,FALSE
+Improved,3,4,4,5,Improved,Increased ,Increased,5,12,Positive,FALSE
+Improved,1,2,3,5,Improved,Increased ,Increased,5,12,Positive,TRUE
+shortage,2,2,2,2,No change,No change,No change,5,5,Positive,TRUE
+Improved,4,4,1,1,No change,No change,No change,5,5,Positive,TRUE
+Improved,3,3,2,2,No change,No change,No change,4,4,Positive,TRUE
+shortage,1,1,2,2,No change,No change,No change,5,5,Positive,TRUE
+shortage,6,6,2,4,No change,Increased ,No change,0,0,Positive,TRUE
+Improved,3,4,4,6,Improved,Increased ,Increased,5,12,Positive,TRUE
+shortage,3,3,3,3,No change,No change,No change,5,5,Positive,TRUE
+Improved,1,2,3,4,Improved,Increased ,Increased,5,12,Positive,TRUE
+Improved,4,6,5,6,Improved,Increased ,Increased,5,12,Neutral,TRUE
+Improved,4,6,3,4,Improved,Increased ,Increased,4,7,Positive,FALSE
+Improved,4,6,4,5,Improved,Increased ,Increased,5,12,Positive,TRUE
+Improved,6,20,5,10,Improved,Increased ,Increased,5,12,Positive,TRUE
+Improved,4,5,3,4,Improved,Increased ,Adequate,5,5,Positive,TRUE
+Improved,7,16,6,12,Improved,Increased ,Increased,5,5,Positive,FALSE
+shortage,4,4,4,6,No change,No change,No change,0,0,Positive,FALSE
+shortage,4,4,7,8,No change,No change,No change,0,0,Neutral,TRUE
+Improved,4,6,5,6,Improved,Increased ,Increased,5,12,Positive,TRUE
+Improved,2,2,1,2,Improved,Increased ,Increased,5,12,Neutral,TRUE
+Improved,3,4,4,5,Improved,Increased ,Increased,5,12,Positive,TRUE
+Improved,4,6,4,5,Improved,Increased ,Increased,5,12,Positive,FALSE
+Improved,1,3,2,3,Improved,Increased ,Increased,0,0,Positive,TRUE
+Improved,3,4,3,5,Improved,Increased ,Increased,5,12,Positive,FALSE
+Improved,3,5,4,6,Improved,Increased ,Increased,5,12,Positive,FALSE
+Improved,4,4,4,6,Improved,Increased ,Increased,0,0,Positive,TRUE
+Improved,4,6,5,7,Improved,Increased ,Increased,5,12,Positive,TRUE
+Improved,4,5,6,15,Improved,Increased ,Increased,5,12,Positive,TRUE
+Improved,4,6,2,3,Improved,Increased ,Increased,0,0,Neutral,TRUE
+Improved,3,4,3,5,Improved,Increased ,Increased,2,2,Positive,TRUE
+Improved,3,5,4,6,Improved,Increased ,Increased,2,2,Positive,TRUE
+Improved,4,5,4,6,Improved,Increased ,Increased,2,3,Positive,TRUE
+Improved,4,6,5,7,Improved,Increased ,Increased,100,100,Positive,FALSE
+Improved,4,6,4,5,Improved,Increased ,Increased,2,2,Positive,TRUE
+Improved,6,20,5,10,Improved,Increased ,Increased,5,7,Positive,TRUE
+Improved,2,2,1,4,Improved,Increased ,Increased,0,0,Positive,TRUE
+Improved,7,16,6,12,Improved,Increased ,Increased,50,50,Positive,TRUE
+Improved,4,6,4,5,Improved,Increased ,Increased,5,10,Positive,FALSE
+Improved,6,20,5,10,Improved,Increased ,Increased,50,50,Positive,TRUE
+Improved,3,4,1,2,Improved,Increased ,Increased,20,20,Positive,TRUE
+Improved,7,16,6,12,Improved,Increased ,Increased,2,2,Positive,TRUE
+Improved,4,6,4,5,Improved,Increased ,Increased,4,4,Neutral,TRUE
+Improved,6,20,5,10,Improved,Increased ,Increased,20,20,Positive,TRUE

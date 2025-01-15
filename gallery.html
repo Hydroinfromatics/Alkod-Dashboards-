@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Water & health data presented by ICCW for Nallampatti.">
+    <meta name="author" content="ICCW">
+    <meta name="keywords" content="Water, Health, Nallampatti, ICCW, Data, Analysis">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0a0a0a">
+    <link rel="apple-touch-icon" sizes="180x180" href="Fevicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Fevicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Fevicon/favicon-16x16.png">
+    <title>Gallery - Raichur Lake Rejuvenation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="gallery.css">
+    <style>
+      /* Ensure header and footer are above the gallery */
+      header {
+          position: relative;
+          z-index: 1000; /* Ensures header is on top */
+      }
+
+      footer {
+          position: relative;
+          z-index: 1000; /* Ensures footer is on top */
+      }
+
+      /* Adjust z-index for the gallery coverflow */
+      .coverflow {
+          position: relative;
+          z-index: 1; /* Keeps gallery below header/footer */
+      }
+
+      /* Fix the issue with images potentially blocking other elements */
+      .coverflow__image {
+          pointer-events: auto; /* Ensures images don't block clicks elsewhere */
+      }
+  </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+      <div class="navbar">
+          <!-- Left side: Site logo -->
+          <div class="logo-container">
+              <a href="https://www.icicifoundation.org/" target="_blank">
+                  <img src="Logos\ICICI-foundation.jpg" alt="ICICI-logo" class="logo">
+              </a>
+          </div>
+  
+          <!-- Right side: Navigation menu and Partner logo -->
+          <div class="nav-and-partner">
+              <div class="hamburger" onclick="toggleMenu()">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+              <!-- Navigation links -->
+              <nav>
+                  <ul class="nav-links">
+                      <li><a href="index.html" class="nav-item">Home</a></li>
+                      <li><a href="about.html" class="nav-item">Alkoda Lake-Project</a></li>
+                      <li><a href="eia.html" class="nav-item">EIA-Study</a></li>
+                      <li><a href="gallery.html" class="nav-item active">Gallery</a></li>
+                      <li><a href="contact-us.html" class="nav-item">Contact Us</a></li>
+                  </ul>
+              </nav>
+  
+              <!-- Partner logo -->
+              <div class="partner-logo">
+                  <a href="https://www.iitm.ac.in/" target="_blank">
+                      <img src="Logos\IITM-500x500.png" alt="IITM-logo" class="logo">
+                  </a>
+
+                  <a href="https://iccw.world/" target="_blank">
+                      <img src="Logos\iccw-logo-white.png" alt="ICCW-logo" class="logo">
+                  </a>
+              </div>
+          </div>
+      </div>
+  </header>
+
+    <!-- Gallery Section -->
+    <section class="row">
+        <div class="nine columns">
+          <div class="coverflow top10 bot10">
+            <a class="prev-arrow"></a>
+            <a href=""><img src="Images\gallery-1.jpg" class="coverflow__image" /></a>
+            <a href=""><img src="Images\gallery-2.jpg" class="coverflow__image" /></a>
+            <a href=""><img src="Images\gallery-3.jpg" class="coverflow__image" /></a>
+            <a href=""><img src="Images\gallery-4.jpg" class="coverflow__image" /></a>
+            <a href=""><img src="Images\gallery-5.jpg" class="coverflow__image" /></a>
+            <a href=""><img src="Images\gallery-6.jpg" class="coverflow__image" /></a>
+            <a href=""><img src="Images\gallery-8.jpg" class="coverflow__image" /></a>
+            <a class="next-arrow"></a>
+          </div>
+        </div>
+      </section>
+
+
+     <!-- Footer Section -->
+<footer>
+    <div class="footer-content">
+        <!-- Left side: Developed by ICCW -->
+        <div class="left-text">
+            <p>Developed by ICCW</p>
+        </div>
+
+        <!-- Center: Social Media Icons -->
+        <div class="social-icons">
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/ICCWIndia" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/company/iccw/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <!-- Twitter -->
+            <a href="https://x.com/ICCWIndia" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-twitter"></i>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/iccw_iitm/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <!-- YouTube-->
+            <a href="https://www.youtube.com/@iccwnews7325" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+
+        <!-- Right side: All Rights Reserved -->
+        <div class="right-text">
+            <p>© 2020 ICCW. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+          /*------------------------------
+              Album Cover Slider
+      --------------------------------*/
+      //start added by Chase
+      var a = document.getElementsByTagName("a");
+      var cfImg = document.getElementsByClassName("coverflow__image")
+
+      var scaleI = 0;
+      for (scaleI; scaleI < a.length; scaleI++) {
+        if (scaleI === 3) {
+          continue;
+        } else {
+          a[scaleI].style.cursor = "default";
+          a[scaleI].addEventListener("click", prevDef);
+        }
+      }
+
+      function prevDef(e) {
+        e.preventDefault();
+      }
+
+      function forScale(coverflowPos) {
+        for (scaleI = 0; scaleI < a.length; scaleI++) {
+          a[scaleI].style.cursor = "default";
+          a[scaleI].addEventListener("click", prevDef);
+        }
+        for (scaleI = 0; scaleI < cfImg.length; scaleI++) {
+          if (cfImg[scaleI].getAttribute("data-coverflow-index") == coverflowPos) {
+            cfImg[scaleI].parentElement.style.cursor = "pointer";
+            cfImg[scaleI].parentElement.removeEventListener("click", prevDef);
+          }
+        }
+      }
+      //end added by Chase
+
+      function setupCoverflow(coverflowContainer) {
+        var coverflowContainers;
+
+        if (typeof coverflowContainer !== "undefined") {
+          if (Array.isArray(coverflowContainer)) {
+            coverflowContainers = coverflowContainer;
+          } else {
+            coverflowContainers = [coverflowContainer];
+          }
+        } else {
+          coverflowContainers = Array.prototype.slice.apply(document.getElementsByClassName('coverflow'));
+        }
+
+        coverflowContainers.forEach(function(containerElement) {
+          var coverflow = {};
+          var prevArrows, nextArrows;
+
+          //capture coverflow elements
+          coverflow.container = containerElement;
+          coverflow.images = Array.prototype.slice.apply(containerElement.getElementsByClassName('coverflow__image'));
+          coverflow.position = Math.floor(coverflow.images.length / 2) + 1;
+
+          //set indicies on images
+          coverflow.images.forEach(function(coverflowImage, i) {
+            coverflowImage.dataset.coverflowIndex = i + 1;
+          });
+
+          //set initial position
+          coverflow.container.dataset.coverflowPosition = coverflow.position;
+
+          //get prev/next arrows
+          prevArrows = Array.prototype.slice.apply(coverflow.container.getElementsByClassName("prev-arrow"));
+          nextArrows = Array.prototype.slice.apply(coverflow.container.getElementsByClassName("next-arrow"));
+
+          //add event handlers
+          function setPrevImage() {
+            coverflow.position = Math.max(1, coverflow.position - 1);
+            coverflow.container.dataset.coverflowPosition = coverflow.position;
+            //call the functin forScale added
+            forScale(coverflow.position);
+          }
+
+          function setNextImage() {
+            coverflow.position = Math.min(coverflow.images.length, coverflow.position + 1);
+            coverflow.container.dataset.coverflowPosition = coverflow.position;
+            //call the function Chase added
+            forScale(coverflow.position);
+          }
+
+          function jumpToImage(evt) {
+            coverflow.position = Math.min(coverflow.images.length, Math.max(1, evt.target.dataset.coverflowIndex));
+            coverflow.container.dataset.coverflowPosition = coverflow.position;
+            //start added by Chase
+            setTimeout(function() {
+              forScale(coverflow.position);
+            }, 1);
+            //end added by Chase
+          }
+
+          function onKeyPress(evt) {
+            switch (evt.which) {
+              case 37: //left arrow
+                setPrevImage();
+                break;
+              case 39: //right arrow
+                setNextImage();
+                break;
+            }
+          }
+          prevArrows.forEach(function(prevArrow) {
+            prevArrow.addEventListener('click', setPrevImage);
+          });
+          nextArrows.forEach(function(nextArrow) {
+            nextArrow.addEventListener('click', setNextImage);
+          });
+          coverflow.images.forEach(function(image) {
+            image.addEventListener('click', jumpToImage);
+          });
+          window.addEventListener('keyup', onKeyPress);
+        });
+      }
+
+      setupCoverflow();
+</script>
+
+
+
+
+
+
+ <!-- For mobile & Tab menu-->
+ <script>
+  function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.classList.toggle('active');}
+</script>
+
+</body>
+</html>
